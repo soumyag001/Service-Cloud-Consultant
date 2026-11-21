@@ -1,5 +1,8 @@
 # Salesforce Service Cloud Consultant: Study Guide
 
+**Live site:** [https://soumyag001.github.io/Service-Cloud-Consultant/](https://soumyag001.github.io/Service-Cloud-Consultant/)  
+**Scenario quiz:** [https://soumyag001.github.io/Service-Cloud-Consultant/quiz.html](https://soumyag001.github.io/Service-Cloud-Consultant/quiz.html)
+
 A self-contained study path for someone who knows only the basics of Salesforce (and a little Knowledge) and wants to think and answer like an experienced **Service Cloud Consultant**.
 
 > Verify UI labels in your own org: Salesforce renames menu items every release. Concepts stay stable; click paths drift.
@@ -27,9 +30,9 @@ A self-contained study path for someone who knows only the basics of Salesforce 
 | 06 | [Data Architecture and Large Data Volumes](06-data-architecture-ldv.md) | Ownership/account/lookup skew, skinny tables, selectivity, 2-minute query timeouts, Bulk API, PK chunking, truncation |
 | 07 | [Consulting Practice](07-consulting-practice.md) | Discovery, change management and enablement, deployment (change sets), design principles |
 | 08 | [Scenario Question Bank](08-scenario-question-bank.md) | 17 scenario questions, every option analysed |
-| 11 | [Additional Scenarios](11-additional-scenarios.md) | 25 more consultant scenarios with option-by-option analysis |
 | 09 | [Hands-on Labs Index](09-hands-on-labs.md) | One checklist of every lab with an order of execution |
 | 10 | [Cheat Sheet](10-cheat-sheet.md) | One-page decision tables and numbers to memorise |
+| 11 | [Additional Scenarios](11-additional-scenarios.md) | 25 more consultant scenarios with option-by-option analysis |
 
 ## Suggested 3-week plan
 
@@ -51,12 +54,12 @@ A self-contained study path for someone who knows only the basics of Salesforce 
 ## Publishing to GitHub
 
 ```bash
-cd service-cloud-consultant-study-guide
+cd Service-Cloud-Consultant
 git init
 git add .
 git commit -m "Service Cloud consultant study guide"
 git branch -M main
-git remote add origin https://github.com/<your-user>/service-cloud-consultant-study-guide.git
+git remote add origin https://github.com/soumyag001/Service-Cloud-Consultant.git
 git push -u origin main
 ```
 
